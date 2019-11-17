@@ -13,7 +13,7 @@ import {
   grayColor,
   blackColor,
   hexToRgb
-} from "assets/jss/material-dashboard-react.js";
+} from "../../material-dashboard-react.js";
 
 const sidebarStyle = theme => ({
   drawerPaper: {
@@ -77,11 +77,11 @@ const sidebarStyle = theme => ({
   },
   logoLink: {
     ...defaultFont,
-    textTransform: "uppercase",
+    //textTransform: "uppercase",
     padding: "5px 0",
     display: "block",
     fontSize: "18px",
-    textAlign: "left",
+    //textAlign: "left",
     fontWeight: "400",
     lineHeight: "30px",
     textDecoration: "none",
@@ -98,11 +98,11 @@ const sidebarStyle = theme => ({
     display: "inline-block",
     maxHeight: "30px",
     marginLeft: "10px",
-    marginRight: "15px"
+    marginRight: "60px"
   },
   img: {
-    width: "35px",
-    top: "22px",
+    width: "70px",
+    top: "25px",
     position: "absolute",
     verticalAlign: "middle",
     border: "0"

@@ -18,7 +18,11 @@
     "react-swipeable-views": "0.13.3",
     "react-redux": "5.0.7",
     "react-router-redux": "4.0.8",
-    "redux": "4.0.0"
+    "redux": "4.0.0",
+    "redux-thunk": "2.3.0"
+  },
+  "devDependencies": {
+    "redux-immutable-state-invariant": "2.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
